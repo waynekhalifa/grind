@@ -1,0 +1,18 @@
+@mixin select-style($background, $color, $raduis, $width){
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none; /* Firefox */
+    -ms-appearance: none; /* IE 9 */
+    -o-appearance: none; /* Opera */
+    appearance: none;
+
+    border: none;
+    display: block;
+    margin: 0;
+    outline: 0;
+    font: inherit;
+    background: white;
+    color: $color;
+    border-radius: $raduis;
+    width: $width;
+    cursor: pointer;
+}

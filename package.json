@@ -1,0 +1,9 @@
+{
+  "name": "melody",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.1.0"
+  }
+}

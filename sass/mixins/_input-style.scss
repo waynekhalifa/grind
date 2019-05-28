@@ -1,0 +1,10 @@
+@mixin input-style($background, $color, $raduis, $width){
+    border: none;
+    display: inline-block;
+    font: inherit;
+    background: $background;
+    color: $color;
+    border-radius: $raduis;
+    width: $width;
+    outline: 0;
+}

@@ -1,0 +1,115 @@
+/*
+Theme Name: Grind
+Author: Wani Joseph
+Text Domain: grind
+*/
+/*break points*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*compass resets*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 2; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+ul {
+  list-style-type: none; }
+
+button {
+  cursor: pointer; }
+  button:disabled {
+    cursor: not-allowed; }
+
+input, textarea {
+  border: none;
+  display: inline-block;
+  font: inherit;
+  background: white;
+  color: black;
+  border-radius: 0;
+  width: 100%;
+  outline: 0; }
+
+select {
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  -moz-appearance: none;
+  /* Firefox */
+  -ms-appearance: none;
+  /* IE 9 */
+  -o-appearance: none;
+  /* Opera */
+  appearance: none;
+  border: none;
+  display: block;
+  margin: 0;
+  outline: 0;
+  font: inherit;
+  background: white;
+  color: black;
+  border-radius: 0;
+  width: 100%;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+input, textarea {
+  @include input-style(white, black, 0, 100%);
+}
+
+select {
+  @include select-style(white, black, 0, 100%);
+}

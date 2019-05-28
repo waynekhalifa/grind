@@ -1,0 +1,21 @@
+{
+  "name": "melody",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "mohamadelbialy <mohamadelbialy@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://start-solutions.net/melody",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.1"
+  }
+}
